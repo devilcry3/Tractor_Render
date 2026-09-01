@@ -1,0 +1,29 @@
+{
+  "name": "tractor_crud_api_site",
+  "version": "1.0.0",
+  "description": "a demo for 340 of package.json file",
+  "keywords": [
+    "test",
+    "\\",
+    "githubs\\",
+    "render\\",
+    "what",
+    "am",
+    "I",
+    "doing"
+  ],
+  "license": "ISC",
+  "author": "Brandon Williams, David Hutchins, Izak",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"echo \\ \"Error: no test specificied\\\" && exit 1\""
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "express-validation": "^4.1.1",
+    "multer": "^2.3.0",
+    "mysql2": "^3.24.2",
+    "path": "^0.12.7"
+  }
+}

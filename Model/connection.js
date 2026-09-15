@@ -18,7 +18,7 @@ async function setDatabaseConnction() {
     //Singleton DB connection
     if (null === connection) {
         connection = await mysql.createConnection({
-            host: '://amazonaws.com',
+            host: 'tractor-database.cnmi82ki8tut.us-east-2.rds.amazonaws.com',
             port: 3306,
             user: 'admin',
             password: 'traktortraktor',

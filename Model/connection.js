@@ -19,6 +19,7 @@ async function setDatabaseConnction() {
     if (null === connection) {
         connection = await mysql.createConnection({
             host: 'cnmi82ki8tut.us-east-2.rds.amazonaws.com',
+            port: 3306,
             user: 'admin',
             password: 'traktortraktor',
             database: 'tractor-database'
